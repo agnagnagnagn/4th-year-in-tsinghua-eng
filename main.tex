@@ -1,0 +1,56 @@
+\documentclass[UTF-8,openright]{ctexbook}
+
+\usepackage[sectionbib]{bibunits}
+\bibliographyunit[\chapter]
+\defaultbibliographystyle{thuthesis-numeric}
+\defaultbibliography{main}
+
+\renewcommand\bibname{\centerline{References}}
+
+\usepackage{graphicx}
+
+\usepackage[colorlinks, linkcolor=black, anchorcolor=blue, citecolor=green]{hyperref}
+
+\begin{document}
+
+\begin{titlepage}
+	\centering
+	\linespread{1.2}
+	\vspace*{1cm}
+	{\zihao{-0} \textbf{The 4th Year in Tsinghua}\par}
+	\vspace{0.5cm}
+	{\zihao{-1} \textbf{——Ghost Tales in Tsinghua}\par}
+	\vfill
+	\begin{table}[!hb]
+		\LARGE
+		\centering
+		\begin{tabular}{rc}
+			Author： &	Zhang Danyang \\
+			&			Cheng Siyuan \\
+			Material： &	Cheng Siyuan \\
+			&			Zhang Danyang \\
+			Photo： &	Cheng Siyuan
+		\end{tabular}
+		\vspace{1cm}
+	\end{table}
+\end{titlepage}
+
+\pagestyle{headings}
+
+\pagenumbering{Roman}
+
+\tableofcontents
+\newpage
+
+\pagenumbering{arabic}
+
+\input{Prelude}
+
+\input{Zero-Zero Pavilion}
+\input{Moonlight over Lotus Pond}
+\input{The Phantom of the West Lake}
+\input{Gong Office}
+\input{Classroom Building 2}
+\input{Early Buildings}
+
+\end{document}
